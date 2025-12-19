@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html lang='en'>
 
+    <style>
+  .responsive-map {
+    width: 100%;
+    max-width: 720px;
+    height: 400px;
+    border: 0;
+    display: block;
+    margin: 20px auto;
+  }
+
+  @media (max-width: 600px) {
+    .responsive-map {
+      height: 250px;  /* 手机屏幕高度缩小 */
+    }
+  }
+</style>
+
+    
 <head>
     <base href="..">
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
@@ -9,7 +27,7 @@
     <meta name="resource-type" content="document">
     <meta name="distribution" content="global">
     <meta name="KeyWords" content="Conference">
-    <title>Flyer | Conference Template</title>
+    <title>Venue | ECCAI 2025 </title>
 </head>
 
 <body>
@@ -17,17 +35,17 @@
     <div class="banner">
         <img src="assets/banner.jpg" alt="Conference Template Banner">
         <div class="top-left">
-            <span class="title1">Conference</span><span class="title2">Template</span> <span class="year">2525</span>
+            <span class="title1">ACM</span> <span class="title2">ECCAI</span> <span class="year">2025</span>
         </div>
         <div class="bottom-right">
-            June 31, 2525 <br> University Name, and City Maybe
+            December 1-4, 2025 <br> HKUST, Hong Kong
         </div>
     </div>
 
     <table class="navigation">
         <tr>
             <td class="navigation">
-                <a title="Conference Home Page" href=".">Home</a>
+                <a class="current" title="Conference Home Page" href=".">Home</a>
             </td>
             <td class="navigation">
                 <a title="Register for the Conference" href="registration">Registration</a>
@@ -36,41 +54,26 @@
                 <a title="Conference Program" href="program">Program</a> 
             </td>
             <td class="navigation">
-                <a title="Directions to the Conference" href="directions">Directions</a>
+               <a title="Directions to the Conference" href="directions">Venue</a>
             </td>
-            <td class="navigation">
-                <a class="current" title="Conference Flyer" href="flyer">Flyer</a>
-            </td>
-        </tr>
-    </table>
-
-    <br>
-
-    <p>
-        I got lazy on this page and didn&rsquo;t mock up any template flyers for this template website.
-        So these are the flyers that <a target="_blank" href="https://math.jonathanalcaraz.com/">Jonathan Alcaraz</a>
-        designed for <a target="_blank" href="http://math.ucr.edu/~mathconn/">MathConnections 2019</a>.
-        Click on the color or grayscale flyer below to download a pdf.
-    </p>
-
-    <table class="flyers">
-        <tr>
-            <td class="flyer">
-                <a href="assets/MathConnections-Flyer.pdf">
-                    <img src="assets/MathConnections-Flyer.png" alt="MathConnections Color Flyer" style="width:100%">
-                </a>
-            </td>
-            <td class="flyer">
-                <a href="assets/MathConnections-FlyerBW.pdf">
-                    <img src="assets/MathConnections-FlyerBW.png" alt="MathConnections BW Flyer" style="width:100%">
-                </a>
+             <td class="navigation">
+                <a title="Directions to the Photo Gallery" href="flyer">Gallery</a>
             </td>
         </tr>
     </table>
+
+<h2>Gallery</h2>
+<div style="max-width: 720px; margin: auto;">
+  <p>
+    ECCAI 2025 will be held as a workshop in conjunction with ACM CoNEXT 2025 at HKUST, Hong Kong.
+  </p>
+  <img src="assets/HKUST.jpeg" alt="HKUST Campus" style="width: 100%; height: auto; display: block; margin-bottom: 20px;">
+
+
+</div>
 
     <footer>
-        &copy; Conference Organizers
-        &nbsp;|&nbsp; Design by <a href="https://github.com/mikepierce">Mike Pierce</a>
+        &copy; ECCAI 2025 Organizers
     </footer>
 
 </body>
